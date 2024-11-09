@@ -1,0 +1,140 @@
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #1b1b1b !important;
+    font-weight: 400 !important;
+    font-size: 1.2rem !important;
+}
+
+.footer-container{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(224, 216, 216);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer-social, .footer-info, .footer-name{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.fa-linkedin{
+    color: #0073b2;
+}
+.fa-instagram{
+    color: #fd494c;
+}
+.fa-facebook{
+    color: #0866ff;
+    padding: 0 5px;
+}
+.footer-link{
+    color: #1b1b1b;
+    text-decoration: none;
+
+}
+.container {
+    width: 100% !important;
+    max-width: none !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem !important;
+    flex: 1;
+}
+.card-container{
+    margin-top: 2rem !important;
+    width: 90% !important;
+}
+.hover-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+.hover-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+.show-card{
+    border: none !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin-top: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+    height: 20rem !important;
+}
+.card-body{
+    padding-top: 8px !important;
+    height: 5rem !important;
+    font-size: 25px !important;
+}
+.card-text{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.card-anchor {
+    text-decoration: none;
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form{
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.form-element{
+    margin: 1rem 0;
+    font-size: 22px;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+.show-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.edit{
+    width: 30%;
+}
+.delete{
+    width: 20%;
+}
